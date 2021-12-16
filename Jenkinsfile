@@ -17,6 +17,7 @@ pipeline {
     stage('test') {
         steps {
           sh '~/.local/bin/pipenv run nosetests'
+
         }
     }
   }
