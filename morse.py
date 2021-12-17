@@ -37,6 +37,3 @@ def decode(message):
     symbols = message.split(" ")
     letters = [ALPHABET[s] for s in symbols]
     return ''.join(letters)
-
-
-sentence = decode(".- .-.. .-.. / -.-- --- ..- / -. . . -.. / .. ... / -.-. --- -.. .")
